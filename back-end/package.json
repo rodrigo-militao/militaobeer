@@ -1,19 +1,14 @@
 {
-  "name": "trybeer-back-end",
+  "name": "militaobeer-back-end",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "debug": "nodemon index.js",
-    "start:watch": "nodemon index.js",
-    "test": "jest",
-    "test-coverage": "jest --coverage --watchAll=false",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
+    "start:watch": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Rodrigo Militão",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "@mysql/xdevapi": "^8.0.20",
@@ -28,7 +23,6 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0",
-    "jest": "25.1.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.21.2",
     "nodemon": "^2.0.4",
